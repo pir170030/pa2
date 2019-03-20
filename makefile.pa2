@@ -1,0 +1,10 @@
+filecnt : filedisp filecnt.o
+	g++ -o filecnt filecnt.o
+filedisp : filedisp.o
+	g++ -o filedisp filedisp.o
+filedisp.o :
+	g++ -Wall -c filedisp.cpp
+filecnt.o :
+	g++ -Wall -c filecnt.cpp
+version.o :
+	g++ -Wall -c version.cpp
