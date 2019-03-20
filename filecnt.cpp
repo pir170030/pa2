@@ -8,6 +8,7 @@ static double VERSION = 1.2;
 #include "version.cpp"
 
 // Ive added a comment
+// CHANGED
 long directoryCount, fileCount, byteCount;
 
 int logEntry(const char* filePath, const struct stat* info, const int typeFlag, struct FTW* pathInfo)
